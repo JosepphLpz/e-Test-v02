@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using WMPLib;
 using Microsoft.VisualBasic.Devices;
@@ -43,7 +38,6 @@ namespace Test_E
             dgvRegistros.ColumnHeadersDefaultCellStyle.BackColor = Color.Gray;
             dgvRegistros.EnableHeadersVisualStyles = false;
         }
-
 
         int preSPA = 0;   // tipo de pregunta (Sensilla, Parrafo, Audio)
         int nvlPre = 0;   // nivel de la pregunta (A1, A2, B1, B2)

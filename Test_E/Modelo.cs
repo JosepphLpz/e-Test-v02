@@ -12,7 +12,7 @@ namespace Test_E
     class Modelo
     {
         // COMPROBAR SI EL USUARIO NO SE REPITE
-        public bool existeUsuario(string usuario)  // resibe la variable del usuario
+        public bool existeUsuario(string usuario)  // recibe la variable del usuario
         {
             MySqlDataReader reader;
             MySqlConnection conexion = Conexion.getConexion();
@@ -32,7 +32,6 @@ namespace Test_E
                 return false;
             }
         }
-
         // REGISTRAR USUARIOS EN LA BASE DE DATOS
         public int registro(Usuarios usuario)
         {
@@ -92,7 +91,7 @@ namespace Test_E
             return resultado;
         }
         // COMPROBAR SI EL USUARIO NO SE REPITE
-        public bool existeAlumno(string usuario)  // resibe la variable del usuario
+        public bool existeAlumno(string usuario)  // recibe la variable del usuario
         {
             MySqlDataReader reader;
             MySqlConnection conexion = Conexion.getConexion();
@@ -112,9 +111,8 @@ namespace Test_E
                 return false;
             }
         }
-
         // INICIO DE SESION MAESTROS
-        public Usuarios Ingresar(string usuario)  // resibe la variable del usuario
+        public Usuarios Ingresar(string usuario)  // recibe la variable del usuario
         {
             MySqlDataReader reader;
             MySqlConnection conexion = Conexion.getConexion();
@@ -136,8 +134,6 @@ namespace Test_E
             }
             return usr;
         }
-
-
         // AGREGAR PREGUNTA SENCILLA A LA BASE DE DATOS
         public int registroPS(Preguntas preguntas)
         {

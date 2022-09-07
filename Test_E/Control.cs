@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Security.Cryptography;
-using MySqlConnector;
+﻿using System.Security.Cryptography;
 
 namespace Test_E
 {
@@ -136,7 +130,7 @@ namespace Test_E
             return respuesta;
         }
 
-        // CIFRAR CONTRASEÑAS
+        // CIFRAR CONTRASEÑAS (SI FUNCIONA PERO NO ESTA IMPLEMENTADO).
         //private string generarSHA1(string cadena)
         //{
         //    //UTF8Encoding enc = new UTF8Encoding();

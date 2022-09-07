@@ -13,11 +13,6 @@ namespace Test_E
         string _pregutas, _res1, _res2, _res3, _res4, _resC;
         string _textos;
         Stream audios;
-
-        //public int Id_s { get => Id_s1; set => Id_s1 = value; }
-        //public int Puntos { get => Puntos1; set => Puntos1 = value; }
-        //public int Nivel { get => Nivel1; set => Nivel1 = value; }
-        //public int Id_tipo_s { get => Id_tipo_s1; set => Id_tipo_s1 = value; }
         public int Id_s { get => id_s; set => id_s = value; }
         public int Id_t { get => id_t; set => id_t = value; }
         public int Id_a { get => id_a; set => id_a = value; }

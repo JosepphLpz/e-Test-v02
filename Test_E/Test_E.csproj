@@ -169,7 +169,6 @@
     <Compile Include="ModelQuestionGrammar.cs" />
     <Compile Include="ModelQuestionText.cs" />
     <Compile Include="Preguntas.cs" />
-    <Compile Include="PreguntasExamen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sesion.cs" />
